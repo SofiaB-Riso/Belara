@@ -1116,7 +1116,6 @@ section:hover #a{
     margin-top: 5%;
  }
 
-
  footer{
     width: 100%;
     height: 500px;
@@ -1140,23 +1139,26 @@ section:hover #a{
     display: inline-block;
  }
 
- .fotdiv{
+ .fotdiv1{
     width: 220px;
     height: 261px;
-    margin: 0px 12px;
+    margin: 0px 12px 0px 220px;
     display: inline-block;
+   
+ }
+  .fotdiv{
+    width: 220px;
+    height: 261px;
+    margin: 0px 12px ;
+    display: inline-block;
+    position: absolute;
+    
  }
 
- .fotdiv>img{
-    position: relative;
-    top: 0;
+ .fotimg{
+    display: inline-block;
+    position: absolute;
  }
-.news{
-    width: 440px;
-    height: 261px;
-    margin-left: 220px;
-    padding: 0px 12px;
-}
 
 .fotdiv>h4{
     color: white;
@@ -1186,4 +1188,41 @@ section:hover #a{
     font-family: 'Questrial';
     font-size: 16px;
     text-decoration: underline;
+}
+
+.fotdiv1>h4{
+    color: white;
+    font-family: 'Cabin';
+    font-size: 20px;
+    margin-bottom: 30px;
+    font-weight: 400;
+}
+.fotdiv1>ul{
+    list-style: none;
+    color: white;
+    font-family: 'Questrial';
+    font-size: 16px;
+}
+
+.fotdiv1>ul>li>a{
+    color:#e9e3d9;
+    font-family: 'Questrial';
+    font-size: 16px;
+    text-decoration: none;
+}
+.fotdiv1>ul>li{
+    margin-bottom: 15px;
+}
+.fotdiv1>ul>li:hover a{
+    color:white;
+    font-family: 'Questrial';
+    font-size: 16px;
+    text-decoration: underline;
+}
+
+.news{
+    width: 440px;
+    height: 261px;
+    margin-left: 220px;
+    padding: 0px 12px;
 }
