@@ -1116,6 +1116,7 @@ section:hover #a{
     margin-top: 5%;
  }
 
+
  footer{
     width: 100%;
     height: 500px;
@@ -1134,23 +1135,36 @@ section:hover #a{
  }
  .fotcont{
     width: 100%;
+    height: 261px;
     padding: 10px;
     display: inline-block;
  }
 
  .fotdiv{
     width: 220px;
-    height: 100%;
+    height: 261px;
     margin: 0px 12px;
-}
+    display: inline-block;
+ }
 
+ .fotdiv>img{
+    position: relative;
+    top: 0;
+ }
 .news{
     width: 440px;
-    height: 100%;
+    height: 261px;
     margin-left: 220px;
     padding: 0px 12px;
 }
 
+.fotdiv>h4{
+    color: white;
+    font-family: 'Cabin';
+    font-size: 20px;
+    margin-bottom: 30px;
+    font-weight: 400;
+}
 .fotdiv>ul{
     list-style: none;
     color: white;
@@ -1159,9 +1173,17 @@ section:hover #a{
 }
 
 .fotdiv>ul>li>a{
-    color: white;
+    color:#e9e3d9;
     font-family: 'Questrial';
     font-size: 16px;
     text-decoration: none;
 }
-
+.fotdiv>ul>li{
+    margin-bottom: 15px;
+}
+.fotdiv>ul>li:hover a{
+    color:white;
+    font-family: 'Questrial';
+    font-size: 16px;
+    text-decoration: underline;
+}
